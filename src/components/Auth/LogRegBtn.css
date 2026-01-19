@@ -1,0 +1,33 @@
+.Button-Wrapper{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Login-Button, .Register-Button{
+   padding: 10px 20px;
+   border-radius: 8px;
+   font-size: small;
+   font-weight: 600;
+   color: aliceblue;
+   border: 2px solid #4a4949;
+}
+
+.Login-Button:hover{
+    border: 2px solid #5380e1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Register-Button:hover{
+       border: 2px solid #5380e1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-Divider{
+    align-self: center;
+    font-size: 14px;
+    color: #959595;
+    font-weight: 600;
+}
+

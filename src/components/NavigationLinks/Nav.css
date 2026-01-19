@@ -1,0 +1,16 @@
+.Nav-List{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+    align-items: center;
+}
+
+.Nav-List li{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+  color: #f8fafc;
+
+}

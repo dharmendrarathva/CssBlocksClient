@@ -1,0 +1,33 @@
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Logo h1 {
+  margin: 0;
+  line-height: 1;
+}
+
+.Logo svg {
+  display: block;
+}
+
+.Logo-first {
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 2.5rem;
+}
+
+.Logo-second {
+  color: #000000;
+  background: linear-gradient(360deg, #9db1d8, #d7d7de);
+  padding: 14px 12px;
+  border: 1px solid #444444;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: fit-content;
+  text-align: center;
+}

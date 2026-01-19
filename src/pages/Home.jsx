@@ -1,16 +1,29 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import React from "react";
+import "./home.css";
+import Search from "../components/Searchbar/Search";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
-      <Header />
-      <main style={{ padding: "60px 24px", textAlign: "center" }}>
-        <h1>Welcome to CssBlocks</h1>
-        <img src="https://www.canva.com/design/DAG-Rso2S2Y/9LC-zVzZpzcsStC-WjYCXw/edit?utm_content=DAG-Rso2S2Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" alt="" />
-        <p>Reusable UI blocks for modern web apps.</p>
-      </main>
-      <Footer />
-    </div>
+    <section className="home">
+      <div className="home-container">
+        <span className="home-badge">
+          www.uisnaps.com
+        </span>
+
+        <h1 className="home-title">
+          The Largest Library of <br />
+          Open-Source CSS Blocks
+        </h1>
+
+        <p className="home-subtitle">
+          Community-built UI blocks. Copy as HTML, CSS, Tailwind,
+          React and more.
+        </p>
+
+        <Search />
+      </div>
+    </section>
   );
-}
+};
+
+export default Home;

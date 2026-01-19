@@ -1,18 +1,9 @@
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Login from "./components/Login";
-// import ProductsTest from "./components/ProductsTest";
-// import "./App.css";
+import React from 'react'
 
-// function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         {/* <Route path="/" element={<Login />} /> */}
-//                 <Route path="/" element={<ProductsTest/>} />
+const App = () => {
+  return (
+    <div>App</div>
+  )
+}
 
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
-
-// export default App; 
+export default App

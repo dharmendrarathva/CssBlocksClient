@@ -1,0 +1,39 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+
+  color: #e5e7eb;
+}
+
+.home-container {
+  max-width: 900px;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.home-badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  border-radius: 999px; 
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+}
+
+.home-title {
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  color: #94a3b8;
+}
+

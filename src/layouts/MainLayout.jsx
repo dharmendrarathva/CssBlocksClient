@@ -1,9 +1,15 @@
 import React from 'react'
+import Header from '../components/Reusable/Header'
+import Footer from '../components/Reusable/Footer'
+import './MainLayout.css'
 
-const MainLayout = () => {
+const MainLayout = props => {
   return (
-    <div>MainLayout</div>
+    <>
+        
+    </>
   )
 }
+
 
 export default MainLayout
