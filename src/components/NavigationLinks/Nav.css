@@ -1,16 +1,83 @@
-.Nav-List{
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 40px;
-    align-items: center;
+/* Reset basic list styles */
+nav {
+  width: 100%;
+  padding: 12px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.Nav-List li{
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 15px;
-  color: #f8fafc;
+.Nav-List {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+/* Normal links */
+.Nav-List li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.Nav-List li a:hover {
+  color: #38bdf8; /* sky blue */
+}
+
+/* Icon links (GitHub & Admin) */
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link .icon {
+  font-size: 18px;
+}
+
+/* GitHub hover */
+.nav-link:hover {
+  background-color: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+}
+
+/* Admin link special emphasis */
+.nav-link:last-child {
+  background-color: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+}
+
+.nav-link:last-child:hover {
+  background-color: rgba(34, 197, 94, 0.25);
+}
+
+/* Push GitHub + Admin to right */
+.Nav-List li:last-child {
+  margin-left: auto;
+  display: flex;
+  gap: 16px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  nav {
+    padding: 12px 20px;
+  }
+
+  .Nav-List {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .Nav-List li:last-child {
+    margin-left: 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
 }

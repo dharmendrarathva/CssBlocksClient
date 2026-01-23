@@ -9,7 +9,7 @@ useEffect(()=>{
     fetch("https://api.github.com/users/dharmendrarathva")
     .then(response=>response.json())
     .then(data=>{
-        console.log(data)
+        console.log(data)   
         setUserData(data);
         
     })

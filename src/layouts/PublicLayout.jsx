@@ -2,14 +2,14 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import { Outlet } from 'react-router-dom';
 
-const AdminLayout = () => {
+const PublicLayout = () => {
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <Header/>
+      <Outlet/>
+      <Footer/>
     </>
   );
 };
 
-export default AdminLayout;
+export default PublicLayout;
